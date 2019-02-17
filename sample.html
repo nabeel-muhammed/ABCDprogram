@@ -1,0 +1,137 @@
+
+<html>
+    <head>
+        <title>ABCD Program</title>
+        <style>
+        .h{
+           
+            background-color: lightseagreen;
+            padding-top: 10;
+            color: white;
+            padding-bottom:.5em;
+        }
+        .h h1{
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-style: italic;
+        }
+        .h dd{
+
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style: italic;
+        }
+
+        .bg{
+            background-color: gainsboro;
+            vertical-align: top;
+            margin: 0px;
+            border: 0ch;
+
+
+        }
+
+         .hai{
+           background-color: darkgrey;
+           width: 25%;
+            padding-bottom: 1em;
+            padding-left: 1em;
+            padding-right: 1em;
+            margin-bottom: 1.5em;
+           text-align: center;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        }
+        
+        body{
+            margin: 0%;
+            background-color:gainsboro; 
+        }
+        table{
+
+            color: aliceblue;
+        }
+        table td{
+            padding: 4;
+        }
+        #f{
+            height: 20%;
+            background-color: lightseagreen;
+            
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class="h">
+            <dl><dt><h1><font color="white">&nbsp;&nbsp;&nbsp;ICT ABCD Program</font></h1></dt>
+                <dd><b><ol type="1"><li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>MEAN STACK(Angular, Express, Node, Mongo DB)</li></ol>
+            </b>
+            </dd>
+            </dl>
+        </div>
+        
+        
+        
+        
+        <center>
+            <div class="bg">
+        <div class="hai">
+            <h1><br><font color=white>ABCD Program</h1>
+                <strike>Registration Open</strike><br><br>
+            <form method="post">
+                    <table>
+                            <tr><td><b>First name</b></td><td><input id="name" type="text" size=28%></td></tr>
+                            <tr><td> <b>Last Name </b> <br></td><td><input type="text" size=28%></td></tr>
+                            <tr><td><b><b></b>Address </b></td><td><textarea cols="25" rows="5"></textarea></td></tr>
+                    </table>
+                    <table>
+                            <tr><td><b>Qualification</b></td><td><input type="checkbox" checked>SSLC</td><td><input type="checkbox" checked>+2</td><td><input type="checkbox">DIPLOMA </td><td><br><br></td></tr>
+                    </table>
+                    <table>
+                            <tr><td><b>Gender</b></td><td>Male<input name="gender" type="radio" checked></td><td>female<input name="gender" type="radio"></td></tr>
+                            <tr><td> <b>Date of Birth</b></td><td><select name="dob" id="dob">
+                                    <option value="1995" selected>day</option>
+                                    <option value="1996" >1</option>   
+                                    <option value="1997">2</option>
+                                    <option value="1998" >3</option><br><br>
+                                </select></td><td><select name="dob" id="dob">
+                                        <option value="1995" selected>month</option>
+                                        <option value="1996" >jan</option>   
+                                        <option value="1997">feb</option>
+                                        <option value="1998" >mar</option><br><br>
+                                    </select></td><td><select name="dob" id="dob">
+                                            <option value="1998" selected>year</option>
+                                            <option value="1995">1995</option>
+                                            <option value="1996" >1996</option>   
+                                            <option value="1997">1997</option>
+                                            <br><br>
+                                        </select></td></tr>
+                    </table>
+                    <table>
+                            <tr><td> <b>User name </b></td><td><input type="text" size=25%></td></tr>
+                            <tr><td><b>Password</b></td><td><input type="password" size=25%></td></tr>
+                            
+        
+                        </table><br>
+                        <center></center><input type="submit" style="width:30%; height:5%; background-color: brown; color: white; border: 0ch; font-size: 1.5em"value="submit" onclick="hm()";"> 
+
+                </font>
+            </form>
+        </div>
+    </div>
+    
+    </center>
+    <div id="f">
+        
+        </div>
+        <script>
+        function hm(){
+            name=document.getElementById("name").value;
+            if(name==""){
+                alert("error");
+            }
+        }
+        </script>
+    </body>
+</html>
